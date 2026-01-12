@@ -14,20 +14,22 @@ type Project = {
 };
 
 const projects: Project[] = [
-  {
-    title: 'Smart Farming Advisory Platform',
-    description:
-      'Agricultural advisory system delivering personalized farming guidance to Ethiopian farmers through SMS and AI-powered voice calls.',
-    tech: ['React', 'NestJS', 'PostgreSQL', 'Twilio API', 'AI Voice'],
-    features: [
-      'SMS-based crop advisory system',
-      'AI voice calls for illiterate farmers',
-      'Weather-based recommendations',
-      'Amharic language support',
-    ],
-    github: '#',
-    demo: '#',
-  },
+ {
+  title: 'ShegaReport Platform',
+  description:
+    'A civic reporting and information platform that enables users to report local issues and access verified community updates, promoting transparency and civic engagement in Ethiopia.',
+  tech: ['Next.js', 'NestJS', 'PostgreSQL', 'Prisma', 'Tailwind CSS'],
+  features: [
+    'Community issue reporting system',
+    'Admin moderation & verification',
+    'Location-based reports',
+    'User-friendly dashboard',
+  ],
+  github: '#',
+  demo: '#',
+//   video: '/videos/shegareport-demo.mp4',
+},
+
   {
     title: 'E-Learning Platform',
     description:
@@ -98,7 +100,7 @@ export default function Projects() {
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
         >
-          <h2 className="text-4xl font-bold text-center mb-4">
+          <h2 className="text-4xl text-slate-900 font-bold text-center mb-4">
             Featured Projects
           </h2>
 
@@ -113,7 +115,7 @@ export default function Projects() {
                 variants={cardVariants}
                 className="rounded-xl border bg-white p-6 hover:shadow-xl hover:-translate-y-1 transition-all"
               >
-                <h3 className="text-2xl font-bold mb-3">
+                <h3 className="text-2xl text-slate-900 font-bold mb-3">
                   {project.title}
                 </h3>
 
