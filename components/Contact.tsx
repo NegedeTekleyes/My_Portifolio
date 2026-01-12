@@ -51,7 +51,6 @@ export default function Contact() {
 
           <p className="text-lg text-slate-600 mb-12 text-center max-w-2xl mx-auto">
             Open to internships, freelance work, and junior developer roles.
-            Let's build something great together.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
@@ -116,12 +115,12 @@ export default function Contact() {
           </motion.div>
         </motion.div>
       </div>
-
+{/* 
       <footer className="mt-20 pt-8 border-t border-slate-200">
         <p className="text-center text-slate-600">
           © {new Date().getFullYear()} Negede Tekleyes. Built with Next.js and Tailwind CSS.
         </p>
-      </footer>
+      </footer>  */}
     </section>
   );
 }
