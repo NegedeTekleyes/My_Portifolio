@@ -1,3 +1,4 @@
+import './globals.css'
 import MainContainer from "@/components/layout/MainContainer"
 import Sidebar from "@/components/layout/Sidebar"
 
