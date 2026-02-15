@@ -1,3 +1,4 @@
+import MainContainer from "@/components/layout/MainContainer"
 import Sidebar from "@/components/layout/Sidebar"
 
 
@@ -9,9 +10,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <div>
+      <body className="bg-[#0b1220] text-white">
+        <div className="flex">
           <Sidebar/>
+          <MainContainer>{children}</MainContainer>
         </div>
       </body>
     </html>
