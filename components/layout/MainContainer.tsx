@@ -1,13 +1,11 @@
-
-
 export default function MainContainer({
-    children,
+  children,
 }: {
-    children: React.ReactNode
+  children: React.ReactNode;
 }) {
-    return (
-        <main className="m1-[280px] w-full min-h-screen">
-            {children}
-        </main>
-    )
+  return (
+    <main className="lg:ml-[280px] pt-16 lg:pt-0">
+      {children}
+    </main>
+  );
 }
