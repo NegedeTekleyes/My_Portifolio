@@ -1,4 +1,4 @@
-const education = [
+export const education = [
   {
     year: "2000 - 2004",
     title: "Computer Science",
@@ -19,7 +19,7 @@ const education = [
   }
 ];
 
-const experience = [
+export const experience = [
   {
     year: "2012 - 2013",
     title: "Jr. UI UX Designer",
@@ -40,11 +40,10 @@ const experience = [
   }
 ];
 
-const skills = [
+export const skills = [
   { name: "Web Design", value: 65 },
   { name: "HTML/CSS", value: 95 },
   { name: "JavaScript", value: 80 },
   { name: "React JS", value: 70 },
-  { name: "Angular JS", value: 60 },
   { name: "Bootstrap", value: 99 },
 ];
