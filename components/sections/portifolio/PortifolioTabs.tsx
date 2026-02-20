@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 
 type Props = {
     active: string;
