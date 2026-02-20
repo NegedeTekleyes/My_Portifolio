@@ -1,13 +1,39 @@
 import { Project } from "@/data/types";
 import ProjectSlider from "./ProjectSlider";
 
+type Props = {
+    projects: Project[];
+    currentIndex: number;
+    setCurrentIndex: (index: number | null) => void;
+    close: () => void;
+}
+export default function ProjectModal({
+    projects, 
+    currentIndex,
+    setCurrentIndex,
+    close,
+}: Props) {
+    const project = projects[currentIndex!]
 
-export default function ProjectModal({project, close}: {project:Project, close: () => void}) {
+    const next = () => {
+        setCurrentIndex((currentIndex + 1) % projects.length)
+    }
+    const prev = () => {
+        setCurrentIndex((currentIndex - 1 + projects.length) % projects.length)
+    }
+
     return(
        <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-6">
         <div className="bg-[#1a1a1a] max-w-5xl w-full rounded-xl grid md:grid-cols-2 gap-8 p-8 relative">
              <button onClick={close} className="absolute right-4 top-4 text-2xl">✕</button>
 
+
+            {/* left arrow */}
+            <button 
+            onClick={prev}
+            className="absolute left-4 top-2 -translate-y-1/2 text-3xl">
+             ‹
+            </button>
              <ProjectSlider images = {project.images} />
 
              <div>
