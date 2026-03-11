@@ -15,8 +15,8 @@ export default function Sidebar() {
         <Image 
         src="/images/photo.jpg"
         alt="Profile Image"
-        width={128}
-        height={128}
+        width={120}
+        height={120}
         className="rounded-full border-4 border-slate-700 "
         />
         <h2 className="mt-6 text-xl font-semibold">Negede Tekleyes</h2>
