@@ -1,5 +1,7 @@
 import {
+    icons,
     Laptop,
+    Phone,
     Paintbrush,
     Search
 } from "lucide-react"
@@ -20,5 +22,10 @@ export const service = [
         description: "Improving website visibility and ranking on search engines.",
         icons: Search,    
     },
+    {
+        title: "Mobile App",
+        description: "A Shega Mobile App for commnity easly report complaints though the app.",
+        icons: Phone,
+    }
 
 ]
