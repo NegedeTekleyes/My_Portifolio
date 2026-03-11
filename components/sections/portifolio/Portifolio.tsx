@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import PortifolioTabs from "./PortifolioTabs"
 import { projects } from "@/data/projects.data"
 import ProjectCard from "./ProjectCard"
@@ -11,6 +11,10 @@ import SectionTitle from "@/components/ui/SectionTitle"
 export default function Portifolio() {
     const [category, setCategory] = useState("all")
     const [currentIndex, setCurrentIndex] = useState<number | null>(null)
+
+    useEffect(()=> {
+        setCurrentIndex(null)
+    }, [])
 
     const filtered = 
         category === "all" 
