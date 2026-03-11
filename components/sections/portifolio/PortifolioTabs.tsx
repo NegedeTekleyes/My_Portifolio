@@ -3,7 +3,7 @@ type Props = {
     active: string;
     setActive: (c: string) => void;
 }
-const tabs = ["all", "design", "website", "mobile"]
+const tabs = ["all", "Website", "Mobile App"]
 
 export default function PortifolioTabs({ active, setActive }: Props) {
     return (
