@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const words = ["Designer", "Developer", "Freelancer"];
+const words = [ "Software Developer", "Tech Enthusiast", "Self Learner" ];
 
 export default function Typewriter() {
   const [text, setText] = useState("");
