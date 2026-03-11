@@ -1,7 +1,7 @@
 export type Project = {
   id: number;
   title: string;
-  category: "design" | "brand" | "photos";
+  category: "Website" | "Mobile App" | "photos";
   thumbnail: string;
   images: string[];
   description: string;
