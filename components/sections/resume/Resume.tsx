@@ -2,6 +2,7 @@ import ResumeCard from "./ResumeCard";
 import SkillBar from "./SkillBar";
 import { education, experience, skills } from "../../../data/data";
 import SectionTitle from "@/components/ui/SectionTitle";
+import Button from "@/components/ui/Button";
 
 export default function Resume() {
     return (
@@ -35,6 +36,12 @@ export default function Resume() {
           {skills.map((skill, i) => (
             <SkillBar key={i} {...skill} />
           ))}
+          <span className=" px-400px  bg-[#2E3133]">
+
+          <Button>
+            Download CV
+          </Button>
+          </span>
         </div>
       </div>
         </section>
