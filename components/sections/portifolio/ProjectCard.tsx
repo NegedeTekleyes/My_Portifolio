@@ -15,7 +15,7 @@ export default function ProjectCard({project, onClick}:{project:Project, onClick
 
             {/* Blur + Dark Overlay */}
             <div
-                className="absolute inset-0
+             className="absolute inset-0
                    bg-black/60 backdrop-blur-sm
                    opacity-0 group-hover:opacity-100
                    transition duration-300
