@@ -2,6 +2,8 @@
 
 import SectionTitle from "@/components/ui/SectionTitle"
 import { Mail, Phone } from "lucide-react"
+import Link from "next/link"
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 
 
 export default function Contact() {
@@ -16,8 +18,13 @@ export default function Contact() {
           <div>
           <h2>ADDRESS</h2>
         
-            <p>Addis Abeba Ethiopia,</p> <br /> <br />
-            <p className="icons: phone"></p>
+           <p className="text-gray-400 leading-7">
+                4th Floor, Plot No.22,
+                <br />
+                145 Murphy Canyon Rd.
+                <br />
+                San Diego CA 2028
+              </p>
           </div>
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center gap-3">
@@ -31,6 +38,26 @@ export default function Contact() {
               <div className="flex items-center gap-3">
                 <Mail className="text-green-400" size={18} />
                 negede1921@gmail.com
+              </div>
+            </div>
+            <div>
+              <h3>FOLLOW ME</h3>
+              <div className="flex gap-4 text-gray-400">
+                <Link href="https://twitter.com" passHref legacyBehavior>
+                  <a aria-label="Twitter"><FaTwitter size={30} className="icon-style" /></a>
+                </Link>
+                <Link href="https://facebook.com" passHref legacyBehavior>
+                  <a aria-label="Facebook"><FaFacebook size={30} className="icon-style" /></a>
+                </Link>
+                <Link href="https://instagram.com" passHref legacyBehavior>
+                  <a aria-label="Instagram"><FaInstagram size={30} className="icon-style" /></a>
+                </Link>
+                <Link href="https://linkedin.com" passHref legacyBehavior>
+                  <a aria-label="Linkedin"><FaLinkedin size={30} className="icon-style" /></a>
+                </Link>
+                <Link href="https://github.com" passHref legacyBehavior>
+                  <a aria-label="Github"><FaGithub size={30} className="icon-style" /></a>
+                </Link>
               </div>
             </div>
       
@@ -73,15 +100,15 @@ export default function Contact() {
               >
                 Send Message
               </button>
-
             </form>
-
           </div>
-
         </div>
-    
-
-        
     </section>
   )
 }
+
+
+
+    
+
+        
