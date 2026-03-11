@@ -10,7 +10,7 @@ export default function MobileNav() {
     <>
       {/* Top Bar */}
       <div className="lg:hidden fixed top-0 left-0 w-full h-16 bg-[#020617] border-b border-slate-800 flex items-center justify-between px-6 z-50">
-        <h2 className="font-semibold">Simone Olivia</h2>
+        <h2 className="font-semibold">Negede Tekleyes</h2>
 
         <button onClick={() => setOpen(true)} className="text-2xl">
           ☰
