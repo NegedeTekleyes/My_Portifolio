@@ -9,13 +9,13 @@ import SectionTitle from "@/components/ui/SectionTitle"
 
 
 export default function Portifolio() {
-    const [category, setCategory] = useState("All")
+    const [category, setCategory] = useState("all")
     const [currentIndex, setCurrentIndex] = useState<number | null>(null)
 
     const filtered = 
-        category === "All" 
+        category === "all" 
         ? projects 
-        : projects.filter(p => p.category === category)
+        : projects.filter(p => p.category.toLocaleLowerCase() === category.toLocaleLowerCase())
     return (
         <section id="portfolio" className="  px-6 py-24 bg-[#202122]">
             <SectionTitle title="MY WORK" background="PORTFOLIO" />
