@@ -41,13 +41,13 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 px-4">
-        <p className="text-gray-300 text-2xl mb-2">Welcome</p>
+        <p className="text-gray-300 text-3xl mb-2 font-semibold">Aloha</p>
 
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6">
           I'm a <Typewriter />
         </h1>
 
-        <p className="text-gray-300 mb-8">
+        <p className="text-gray-300 font-italic text-xl mb-10">
           based in Addis Abeba, Ethiopia
         </p>
 
