@@ -1,49 +1,43 @@
 export const education = [
   {
-    year: "2000 - 2004",
+    year: "2021 - 2025",
     title: "Computer Science",
-    place: "International University",
-    desc: "Lisque persius interesset his et, in quot quidam persequeris vim."
+    place: "DEBREBIRHAN UNIVERSITY",
+    desc: "Bachelor of Computer Scince with real exprince in building Softwares."
   },
   {
-    year: "2005 - 2008",
-    title: "Bachelor Degree",
-    place: "University of California",
-    desc: "Lisque persius interesset his et, in quot quidam persequeris vim."
-  },
-  {
-    year: "2009 - 2012",
-    title: "Master Degree",
-    place: "Harvard University",
-    desc: "Lisque persius interesset his et, in quot quidam persequeris vim."
+    year: "Febraruy 2026",
+    title: "WDADA level V",
+    place: "Debrebirhan Polytechnic Collage",
+    desc: "Practical skills in web development and Database Adminstrations."
   }
+
+   
 ];
 
 export const experience = [
   {
-    year: "2012 - 2013",
-    title: "Jr. UI UX Designer",
-    place: "Themeforest",
-    desc: "Lisque persius interesset his et, in quot quidam persequeris vim."
+    year: "2025",
+    title: "3 month Mentorship",
+    place: "Debrebirhan University",
+    desc: "I have build E-learning full stack app."
   },
   {
-    year: "2014 - 2016",
-    title: "Jr. Product Designer",
-    place: "Dribbble",
-    desc: "Lisque persius interesset his et, in quot quidam persequeris vim."
+    year: "2025",
+    title: "Graduation Project",
+    place: "Debrebirhan University",
+    desc: "I have build ShegaReport Digital complaint managment system For Debrebirhan Water supply and sanitations."
   },
-  {
-    year: "2017 - 2019",
-    title: "Product Designer",
-    place: "Adobe",
-    desc: "Lisque persius interesset his et, in quot quidam persequeris vim."
-  }
+  
 ];
 
 export const skills = [
-  { name: "Web Design", value: 65 },
-  { name: "HTML/CSS", value: 95 },
-  { name: "JavaScript", value: 80 },
-  { name: "React JS", value: 70 },
-  { name: "Bootstrap", value: 99 },
+  { name: "Web Design", value: 15 },
+  { name: "HTML/CSS", value: 55 },
+  { name: "JavaScript", value: 60 },
+  { name: "React JS", value: 60 },
+  { name: "Next.js", value: 55 },
+  { name: "Node.js", value: 50 },
+  { name: "NestJS", value: 50 },
+  { name: "React Native", value: 40 },
 ];
