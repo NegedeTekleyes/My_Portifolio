@@ -1,11 +1,11 @@
 "use client"
 
-import { Project } from "@/data/types"
 import { useState } from "react"
 import PortifolioTabs from "./PortifolioTabs"
 import { projects } from "@/data/projects.data"
 import ProjectCard from "./ProjectCard"
 import ProjectModal from "./ProjectModal"
+import SectionTitle from "@/components/ui/SectionTitle"
 
 
 export default function Portifolio() {
@@ -17,9 +17,9 @@ export default function Portifolio() {
         ? projects 
         : projects.filter(p => p.category === category)
     return (
-        <section id="portfolio" className=" py-24 bg-[#111] text-white">
+        <section id="portfolio" className="  px-6 py-24 bg-[#202122]">
+            <SectionTitle title="MY WORK" background="PORTFOLIO" />
             <div className="max-w-6xl mx-auto px-6 ">
-                <h2 className="text-4xl font-bold text-center mb-12">My Work</h2>
                 <PortifolioTabs active={category} setActive={setCategory}/>
                 
 
