@@ -12,10 +12,10 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto">
       </div>
       <SectionTitle title="GET IN TOUCH" background="CONTACT" />
-      <div className="grid md:grid-cols-2 gap-12 mt-16">
+      <div className="grid md:grid-cols-2 mt-16 gap-3">
         {/* left */}
-        <div className="space-y-8">
-          <div>
+        <div className="space-y-8 px-40">
+          <div className="">
           <h2>ADDRESS</h2>
         
            <p className="text-gray-400 leading-7">
@@ -41,22 +41,22 @@ export default function Contact() {
               </div>
             </div>
             <div>
-              <h3>FOLLOW ME</h3>
+              <h3 className="py-6">FOLLOW ME</h3>
               <div className="flex gap-4 text-gray-400">
                 <Link href="https://twitter.com" passHref legacyBehavior>
-                  <a aria-label="Twitter"><FaTwitter size={30} className="icon-style" /></a>
+                  <a aria-label="Twitter"><FaTwitter size={18} className="icon-style" /></a>
                 </Link>
                 <Link href="https://facebook.com" passHref legacyBehavior>
-                  <a aria-label="Facebook"><FaFacebook size={30} className="icon-style" /></a>
+                  <a aria-label="Facebook"><FaFacebook size={18} className="icon-style" /></a>
                 </Link>
                 <Link href="https://instagram.com" passHref legacyBehavior>
-                  <a aria-label="Instagram"><FaInstagram size={30} className="icon-style" /></a>
+                  <a aria-label="Instagram"><FaInstagram size={18} className="icon-style" /></a>
                 </Link>
                 <Link href="https://linkedin.com" passHref legacyBehavior>
-                  <a aria-label="Linkedin"><FaLinkedin size={30} className="icon-style" /></a>
+                  <a aria-label="Linkedin"><FaLinkedin size={18} className="icon-style" /></a>
                 </Link>
                 <Link href="https://github.com" passHref legacyBehavior>
-                  <a aria-label="Github"><FaGithub size={30} className="icon-style" /></a>
+                  <a aria-label="Github"><FaGithub size={18} className="icon-style" /></a>
                 </Link>
               </div>
             </div>
@@ -77,13 +77,13 @@ export default function Contact() {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="bg-[#1e2124] text-gray-300 p-4 rounded-md outline-none w-full"
+                  className="bg-[#1e2124] rounded-lg hover:border-green-500 transition border border-gray-800 text-gray-300 p-4 rounded-md outline-none w-full"
                 />
 
                 <input
                   type="email"
                   placeholder="Email"
-                  className="bg-[#1e2124] text-gray-300 p-4 rounded-md outline-none w-full"
+                  className="bg-[#1e2124] rounded-lg border border-gray-800 hover:border-green-500 text-gray-300 p-4 rounded-md outline-none w-full"
                 />
 
               </div>
@@ -91,7 +91,7 @@ export default function Contact() {
               <textarea
                 rows={5}
                 placeholder="Tell us more about your needs..."
-                className="bg-[#1e2124] text-gray-300 p-4 rounded-md outline-none w-full"
+                className="bg-[#1e2124] rounded-lg border border-gray-800 hover:border-green-500 text-gray-300 p-4 rounded-md outline-none w-full"
               />
 
               <button
