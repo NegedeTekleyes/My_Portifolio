@@ -44,19 +44,19 @@ export default function Contact() {
               <h3 className="py-6">FOLLOW ME</h3>
               <div className="flex gap-4 text-gray-400">
                 <Link href="https://twitter.com" passHref legacyBehavior>
-                  <a aria-label="Twitter"><FaTwitter size={18} className="icon-style" /></a>
+                  <a aria-label="Twitter" title="Twitter"><FaTwitter size={18} className="icon-style" /></a>
                 </Link>
                 <Link href="https://facebook.com" passHref legacyBehavior>
-                  <a aria-label="Facebook"><FaFacebook size={18} className="icon-style" /></a>
+                  <a aria-label="Facebook" title="Facebook"><FaFacebook size={18} className="icon-style" /></a>
                 </Link>
                 <Link href="https://instagram.com" passHref legacyBehavior>
-                  <a aria-label="Instagram"><FaInstagram size={18} className="icon-style" /></a>
+                  <a aria-label="Instagram" title="Instagram"><FaInstagram size={18} className="icon-style" /></a>
                 </Link>
-                <Link href="https://linkedin.com" passHref legacyBehavior>
-                  <a aria-label="Linkedin"><FaLinkedin size={18} className="icon-style" /></a>
+                <Link href="https://www.linkedin.com/in/negede-tekleyes-46ab01340/" passHref legacyBehavior>
+                  <a aria-label="Linkedin" title="Linkedin"><FaLinkedin size={18} className="icon-style" /></a>
                 </Link>
-                <Link href="https://github.com" passHref legacyBehavior>
-                  <a aria-label="Github"><FaGithub size={18} className="icon-style" /></a>
+                <Link href="https://github.com/NegedeTekleyes" passHref legacyBehavior>
+                  <a aria-label="Github" title="Github"><FaGithub size={18} className="icon-style" /></a>
                 </Link>
               </div>
             </div>
